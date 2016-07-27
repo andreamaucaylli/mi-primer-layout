@@ -1,0 +1,46 @@
+*{
+	box-sizing: border-box;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.menu{
+	display: inline-block;
+}
+
+a{
+	text-decoration: none;
+}
+
+.encabezado{
+	margin: 30px 20px;
+}
+
+.salto{
+	width: 50px;
+	border:2px solid black;
+}
+
+.marco{
+	width: 740px;
+	height: 500px;
+	margin: 30px;
+	position: relative;
+}
+
+.contenedor{
+	width:210px; 
+	height:210px;
+	margin: 15px;
+	position: relative;
+	display: inline-block;
+	-webkit-filter: brightness(60%);    
+	filter: brightness(50%);
+}
+
+.nombre{
+	color: white;
+	position: absolute;
+	bottom: 5px;
+	right: 5px;
+}
